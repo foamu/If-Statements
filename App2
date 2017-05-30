@@ -1,0 +1,26 @@
+
+public class App2 {
+	public static void main(String[] args) {
+
+		int weightSets = 4;
+		int weightRepsPerSet = 12;
+		int weightReps = 0;
+
+		while (weightReps <= 48) {
+			System.out.println("Weight Reps Completed: " + weightReps);
+			
+			if (weightReps == weightRepsPerSet*weightSets) {
+				System.out.println(weightReps + " Reps Complete.\n" + weightSets + " Sets Complete.");
+			}
+			
+			weightReps++;
+			
+			if (weightReps % 12 == 1) {
+				System.out.println("Speed Resting...");
+			}
+			
+			System.out.println("Lifting Weights!");			
+		}
+
+	}
+}
