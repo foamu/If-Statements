@@ -1,0 +1,26 @@
+
+public class App3 {
+
+	public static void main(String[] args) {
+
+		int item1Weight = 15;
+		int item2Weight = 75;
+		int item3Weight = 34;
+		int totalWeight = 0;
+		int maximumWeightLimit = 200;
+
+		totalWeight = item1Weight + item2Weight + item3Weight;
+
+		if (totalWeight >= maximumWeightLimit) {
+			
+			System.out.println(totalWeight + "lbs. Scale has reached or exceeded it's maximum weight limit.");
+			
+		} else {
+			
+			System.out.println(totalWeight + "lbs. Scale has not reached max weight limit.");
+			
+		}
+
+	}
+
+}
