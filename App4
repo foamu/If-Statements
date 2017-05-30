@@ -1,0 +1,35 @@
+
+public class App4 {
+
+	public static void main(String[] args) {
+
+		// Maximum test score value is 100
+		// Minimum test score value is 0.
+
+		int testScore = (int) (Math.random() * 100 + 0);
+
+		if (testScore >= 90) {
+			
+			System.out.println("Test score = " + testScore + "%. Final Grade = A.");
+			
+		} else if (testScore >= 80) {
+			
+			System.out.println("Test score = " + testScore + "%. Final Grade = B.");
+			
+		} else if (testScore >= 70) {
+			
+			System.out.println("Test score = " + testScore + "%. Final Grade = C.");
+			
+		} else if (testScore >= 60) {
+			
+			System.out.println("Test score = " + testScore + "%. Final Grade = D.");
+			
+		} else {
+			
+			System.out.println("Test score = " + testScore + "%. Final Grade = F. You failed.");
+			
+		}
+
+	}
+
+}
